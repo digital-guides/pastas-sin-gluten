@@ -1,6 +1,6 @@
 {
-  "name": "Las Recetas de Matilda - Pastas Sin Gluten",
-  "short_name": "Recetas Matilda",
+  "name": "Pastas Sin Gluten",
+  "short_name": "Pastas Sin Gluten",
   "description": "Recetario de pastas sin gluten",
   "start_url": "/",
   "display": "standalone",
