@@ -1,7 +1,6 @@
 import { SearchBar } from "@/components/SearchBar";
 import { CategoryCard } from "@/components/CategoryCard";
 import { categories } from "@/data/recipes";
-import { ChefHat } from "lucide-react";
 
 const Index = () => {
   return (
@@ -10,9 +9,13 @@ const Index = () => {
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
         <div className="container max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <ChefHat className="h-8 w-8 text-primary" />
+            <img 
+              src="/images/logo-matilda.png" 
+              alt="Las Recetas de Matilda" 
+              className="h-12 w-12 object-contain"
+            />
             <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
-              Mi Recetario
+              PASTAS SIN GLUTEN
             </h1>
           </div>
           <SearchBar />
@@ -32,7 +35,7 @@ const Index = () => {
       <footer className="mt-16 py-8 border-t border-border">
         <div className="container max-w-6xl mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            Recetario Interactivo · {new Date().getFullYear()}
+            Las Recetas de Matilda · {new Date().getFullYear()}
           </p>
         </div>
       </footer>
