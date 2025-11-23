@@ -516,70 +516,74 @@ export const recipes: Recipe[] = [
     category: "bloque-3",
     ingredients: [
       "Puré de calabaza cocida: 250 g",
-      "Leche vegetal: 100 ml",
-      "Almendras molidas o crema de almendras: 2 cucharadas",
+      "Leche vegetal sin endulzar: 100 ml",
+      "Crema o mantequilla de almendras: 2 cucharadas",
       "Aceite de oliva: 1 cucharada",
-      "Sal, pimienta y nuez moscada: al gusto"
+      "Nuez moscada: 1 pizca",
+      "Sal y pimienta al gusto"
     ],
     instructions: [
       "Coloca todos los ingredientes en la licuadora.",
-      "Procesa hasta obtener una textura cremosa.",
-      "Calienta a fuego suave 3–5 minutos antes de servir."
+      "Procesa hasta obtener una crema suave y homogénea.",
+      "Lleva a fuego suave 3–5 minutos para integrar sabores.",
+      "Ajusta la consistencia agregando más leche vegetal si la deseas más fluida."
     ],
-    tips: "Añade una cucharadita de levadura nutricional para darle un toque \"quesoso\"."
+    tips: "Añade 1 cucharadita de levadura nutricional para un toque \"quesoso\" natural."
   },
   {
     id: "b3-r2",
     title: "Salsa de tomate casera sin azúcar",
     category: "bloque-3",
     ingredients: [
-      "Tomates maduros pelados: 5 unidades (500 g aprox.)",
+      "Tomates maduros pelados y picados: 500 g",
       "Aceite de oliva: 2 cucharadas",
       "Cebolla picada: ½ unidad",
       "Ajo picado: 1 diente",
-      "Sal marina y orégano al gusto"
+      "Orégano seco y sal: al gusto"
     ],
     instructions: [
-      "Sofríe el ajo y la cebolla en el aceite.",
-      "Añade los tomates troceados y cocina 20–25 minutos.",
-      "Tritura si deseas una textura fina."
+      "Sofríe el ajo y la cebolla en el aceite hasta que estén transparentes.",
+      "Añade los tomates y cocina 20–25 minutos a fuego medio.",
+      "Tritura si deseas una textura más fina.",
+      "Sazona con orégano y sal."
     ],
-    tips: "Para una versión más intensa, agrega una pizca de pimentón dulce o albahaca fresca al final."
+    tips: "Agrega 1 cucharadita de pimentón dulce o albahaca fresca para un aroma más profundo."
   },
   {
     id: "b3-r3",
     title: "Salsa blanca sin lácteos (con coliflor o anacardos)",
     category: "bloque-3",
     ingredients: [
-      "Coliflor cocida: 200 g (o anacardos remojados: 100 g)",
+      "Coliflor cocida: 200 g",
+      "(o anacardos remojados: 100 g)",
       "Leche vegetal sin endulzar: 150 ml",
       "Aceite de oliva: 1 cucharada",
-      "Nuez moscada y sal al gusto"
+      "Nuez moscada y sal: al gusto"
     ],
     instructions: [
-      "Licúa todos los ingredientes hasta lograr una textura cremosa.",
-      "Calienta en sartén 5 minutos hasta que espese ligeramente."
+      "Procesa todos los ingredientes en licuadora hasta obtener una crema lisa.",
+      "Lleva a sartén y cocina 5 minutos hasta espesar ligeramente."
     ],
-    tips: "Añade un poco de levadura nutricional si deseas sabor tipo queso parmesano."
+    tips: "Añade levadura nutricional para obtener un sabor similar a queso parmesano."
   },
   {
     id: "b3-r4",
-    title: "Salsa pesto tradicional y pesto de rúcula",
+    title: "Salsa pesto (clásico o de rúcula)",
     category: "bloque-3",
     ingredients: [
       "Albahaca fresca: 1 taza",
       "Piñones o nueces: 2 cucharadas",
       "Ajo: ½ diente",
       "Aceite de oliva: 4 cucharadas",
-      "Queso vegetal o parmesano: 2 cucharadas",
+      "Queso vegetal o parmesano rallado: 2 cucharadas",
       "Sal al gusto"
     ],
     instructions: [
-      "Procesa todos los ingredientes hasta lograr una salsa espesa.",
-      "Ajusta el aceite hasta la textura deseada.",
-      "Versión de rúcula: reemplaza la albahaca por rúcula y el queso por almendras molidas."
+      "Procesa todos los ingredientes hasta obtener una pasta espesa.",
+      "Añade más aceite si deseas textura más fluida.",
+      "Versión rúcula: Reemplaza la albahaca por rúcula y el queso por almendras molidas."
     ],
-    tips: "Si no tienes piñones, usa nueces o semillas de girasol tostadas."
+    tips: "Si no tienes piñones, usa semillas de girasol tostadas."
   },
   {
     id: "b3-r5",
@@ -590,49 +594,49 @@ export const recipes: Recipe[] = [
       "Tomates secos hidratados: 4 unidades",
       "Aceite de oliva: 3 cucharadas",
       "Ajo: ½ diente",
-      "Limón (jugo): 1 cucharadita"
+      "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
-      "Licúa todos los ingredientes hasta obtener una pasta.",
-      "Añade más aceite si deseas textura más líquida."
+      "Licúa todos los ingredientes hasta obtener una pasta uniforme.",
+      "Ajusta con más aceite si la prefieres más cremosa."
     ],
-    tips: "Mezcla con pasta recién cocida y un toque de perejil fresco."
+    tips: "Mezcla con pasta caliente y termina con perejil fresco picado."
   },
   {
     id: "b3-r6",
     title: "Salsa cremosa de champiñones",
     category: "bloque-3",
     ingredients: [
-      "Champiñones frescos: 200 g",
+      "Champiñones frescos picados: 200 g",
       "Cebolla picada: ½ unidad",
       "Leche vegetal: 150 ml",
       "Aceite de oliva: 1 cucharada",
       "Sal, pimienta y tomillo: al gusto"
     ],
     instructions: [
-      "Sofríe cebolla y champiñones en el aceite hasta dorar.",
-      "Agrega la leche vegetal y cocina 5 minutos.",
-      "Tritura si deseas una textura más lisa."
+      "Sofríe la cebolla y los champiñones hasta dorar.",
+      "Añade la leche vegetal y cocina 5 minutos.",
+      "Tritura parcialmente si deseas textura más lisa."
     ],
-    tips: "Añade 1 cucharadita de maicena diluida si prefieres una salsa más espesa."
+    tips: "Si la quieres más espesa, agrega 1 cucharadita de fécula disuelta en agua."
   },
   {
     id: "b3-r7",
     title: "Salsa de espinaca y nuez",
     category: "bloque-3",
     ingredients: [
-      "Espinaca cocida y escurrida: 100 g",
-      "Nueces: 30 g",
-      "Leche vegetal: 120 ml",
-      "Ajo: ½ diente",
+      "Espinaca cocida y bien escurrida: 100 g",
+      "Nueces picadas: 2 cucharadas",
+      "Leche vegetal: 100 ml",
       "Aceite de oliva: 1 cucharada",
-      "Sal y pimienta al gusto"
+      "Ajo: ½ diente",
+      "Sal y pimienta: al gusto"
     ],
     instructions: [
-      "Licúa todos los ingredientes hasta lograr consistencia cremosa.",
-      "Calienta suavemente antes de servir.",
-      "Ajusta sal y pimienta."
-    ]
+      "Licúa todos los ingredientes hasta obtener una crema verde.",
+      "Calienta en sartén 3 minutos antes de servir."
+    ],
+    tips: "Combina perfecto con ravioles o ñoquis."
   },
   {
     id: "b3-r8",
@@ -645,11 +649,11 @@ export const recipes: Recipe[] = [
       "Sal y pimienta: al gusto"
     ],
     instructions: [
-      "Calienta ligeramente el aceite y añade el ajo.",
-      "Agrega el jugo de limón y condimentos.",
-      "Mezcla con la pasta recién cocida."
+      "Calienta ligeramente el aceite.",
+      "Añade el ajo y cocina apenas sin dorar.",
+      "Agrega jugo de limón, ralladura y condimentos."
     ],
-    tips: "Añade perejil fresco o ralladura extra justo antes de servir."
+    tips: "Finaliza con perejil fresco picado o ralladura extra para potenciar aroma."
   },
   {
     id: "b3-r9",
@@ -663,16 +667,17 @@ export const recipes: Recipe[] = [
       "Sal y pimienta: al gusto"
     ],
     instructions: [
-      "Licúa todos los ingredientes hasta obtener una textura cremosa.",
-      "Sirve de inmediato sobre la pasta caliente."
-    ]
+      "Licúa todos los ingredientes hasta lograr una crema suave.",
+      "Úsala inmediatamente para evitar oxidación."
+    ],
+    tips: "Si necesitas conservarla unas horas, cúbrela con una fina capa de aceite de oliva."
   },
   {
     id: "b3-r10",
-    title: "Salsa boloñesa vegetal (con lentejas o soja texturizada)",
+    title: "Salsa boloñesa vegetal",
     category: "bloque-3",
     ingredients: [
-      "Lentejas cocidas o soja texturizada hidratada: 200 g",
+      "Lentejas cocidas o soja texturizada rehidratada: 200 g",
       "Tomate triturado: 300 g",
       "Cebolla y zanahoria picadas: ½ unidad cada una",
       "Ajo: 1 diente",
@@ -680,12 +685,12 @@ export const recipes: Recipe[] = [
       "Laurel, sal y pimienta: al gusto"
     ],
     instructions: [
-      "Sofríe el ajo, la cebolla y la zanahoria.",
-      "Añade las lentejas y el tomate.",
+      "Sofríe ajo, cebolla y zanahoria hasta dorar ligeramente.",
+      "Añade lentejas y tomate triturado.",
       "Cocina a fuego bajo 20 minutos.",
       "Condimenta con laurel, sal y pimienta."
     ],
-    tips: "Puedes agregar vino tinto al sofrito para intensificar el sabor."
+    tips: "Un chorrito de vino tinto seco al sofrito eleva muchísimo el sabor."
   },
 
   // BLOQUE 4 – EXTRAS, RELLENOS Y ACOMPAÑAMIENTOS
