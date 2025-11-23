@@ -1,9 +1,11 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "next-themes";
 import Index from "./pages/Index";
 import CategoryPage from "./pages/CategoryPage";
 import RecipePage from "./pages/RecipePage";
 import NotFound from "./pages/NotFound";
+import { Toaster } from "./components/ui/toaster";
 import { useEffect } from "react";
 
 const queryClient = new QueryClient();
@@ -25,17 +27,20 @@ const App = () => {
   }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/bloque/:categoryId" element={<CategoryPage />} />
-          <Route path="/receta/:recipeId" element={<RecipePage />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </QueryClientProvider>
+    <ThemeProvider attribute="class" defaultTheme="light">
+      <QueryClientProvider client={queryClient}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/bloque/:categoryId" element={<CategoryPage />} />
+            <Route path="/receta/:recipeId" element={<RecipePage />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+        <Toaster />
+      </QueryClientProvider>
+    </ThemeProvider>
   );
 };
 
