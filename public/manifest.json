@@ -1,0 +1,24 @@
+{
+  "name": "Mi Recetario Interactivo",
+  "short_name": "Recetario",
+  "description": "Colección de recetas organizadas por categorías",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF6ED",
+  "theme_color": "#C7744B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
