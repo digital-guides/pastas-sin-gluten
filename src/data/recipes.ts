@@ -702,18 +702,22 @@ export const recipes: Recipe[] = [
       "Harina de arroz: 150 g",
       "Fécula de maíz: 80 g",
       "Psyllium: 6 g",
+      "Goma xantana: 1 g",
       "Huevos: 2 unidades",
       "Agua tibia: 20–30 ml",
       "Aceite de oliva: 10 ml",
       "Sal: 3 g"
     ],
     instructions: [
-      "Prepara la masa como la receta básica.",
-      "Estira en láminas finas (1–2 mm).",
-      "Corta rectángulos del tamaño del molde.",
-      "Cocina las láminas 1 minuto en agua con sal y seca sobre paño limpio."
+      "Mezcla las harinas, fécula, psyllium, goma xantana y sal.",
+      "Añade los huevos y el aceite; integra.",
+      "Agrega el agua poco a poco hasta formar una masa firme y elástica.",
+      "Amasa 4–5 minutos hasta que quede lisa y suave.",
+      "Reposa 20 minutos cubierta.",
+      "Estira láminas finas (1–2 mm).",
+      "Cocina 1 minuto en agua con sal y seca sobre un paño."
     ],
-    tips: "Si vas a armar la lasaña directamente con salsa líquida, puedes usar las láminas crudas."
+    tips: "Si vas a armar la lasaña con salsas muy líquidas, puedes usar las láminas crudas: se cocinan en el horno sin problema."
   },
   {
     id: "b4-r2",
@@ -738,14 +742,14 @@ export const recipes: Recipe[] = [
     ingredients: [
       "Puré de calabaza asada: 250 g",
       "Aceite de oliva: 10 ml",
-      "Romero fresco: 1 cucharadita",
+      "Romero fresco picado: 1 cucharadita",
       "Sal y pimienta al gusto"
     ],
     instructions: [
-      "Mezcla el puré con los condimentos.",
-      "Deja enfriar antes de usar como relleno."
+      "Mezcla todos los ingredientes hasta integrar.",
+      "Deja enfriar antes de usar."
     ],
-    tips: "Ideal para ravioles o lasañas; acompaña con salsa de mantequilla vegetal y salvia."
+    tips: "Perfecto para ravioles o lasañas; acompáñalo con mantequilla vegetal y salvia."
   },
   {
     id: "b4-r4",
@@ -758,10 +762,10 @@ export const recipes: Recipe[] = [
       "Ajo en polvo, sal y pimienta: al gusto"
     ],
     instructions: [
-      "Mezcla el tofu con la espinaca y los condimentos.",
-      "Usa como relleno para canelones o ravioles."
+      "Mezcla espinaca, tofu y condimentos hasta formar un relleno firme.",
+      "Usa para ravioles, canelones o sorrentinos."
     ],
-    tips: "Añade una cucharadita de levadura nutricional para dar sabor a queso."
+    tips: "1 cucharadita de levadura nutricional aporta sabor a queso sin usar lácteos."
   },
   {
     id: "b4-r5",
@@ -769,15 +773,13 @@ export const recipes: Recipe[] = [
     category: "bloque-4",
     ingredients: [
       "Pan sin gluten seco: 100 g",
-      "Hierbas secas (orégano, albahaca): al gusto",
-      "Sal y pimienta"
+      "Especias (ajo, orégano, perejil): al gusto"
     ],
     instructions: [
-      "Tritura el pan seco hasta lograr textura de pan rallado.",
-      "Mezcla con las especias.",
-      "Usa para gratinar o empanar."
+      "Tritura el pan hasta obtener textura de pan rallado.",
+      "Mezcla con las especias."
     ],
-    tips: "Puedes tostarlo ligeramente en sartén para un sabor más intenso."
+    tips: "Tuesta ligeramente en sartén para realzar sabor y crocancia."
   },
   {
     id: "b4-r6",
@@ -789,11 +791,10 @@ export const recipes: Recipe[] = [
       "Sal y hierbas al gusto"
     ],
     instructions: [
-      "Usa un espiralizador o pelador para crear fideos de verduras.",
-      "Saltea ligeramente en aceite de oliva.",
-      "Condimenta con sal y hierbas.",
-      "Sirve como alternativa ligera a la pasta."
-    ]
+      "Corta las verduras en tiras con espiralizador o pelador.",
+      "Saltea 2–3 minutos con aceite y sal."
+    ],
+    tips: "No cocines de más: deben quedar al dente para mantener textura y color."
   },
   {
     id: "b4-r7",
@@ -808,10 +809,11 @@ export const recipes: Recipe[] = [
       "Sal: 3 g"
     ],
     instructions: [
-      "Mezcla todos los ingredientes hasta lograr una mezcla líquida.",
-      "Cocina porciones en sartén antiadherente como si fueran crepas.",
-      "Rellena y enrolla con el relleno deseado."
-    ]
+      "Mezcla todos los ingredientes hasta obtener una mezcla líquida homogénea.",
+      "Cocina porciones en sartén antiadherente, como crepas.",
+      "Rellena y enrolla."
+    ],
+    tips: "Para versión vegana, sustituye el huevo por 1 cda de linaza molida + 3 cdas de agua."
   },
   {
     id: "b4-r8",
@@ -821,17 +823,19 @@ export const recipes: Recipe[] = [
       "Harina de arroz: 150 g",
       "Fécula de maíz: 80 g",
       "Psyllium: 6 g",
+      "Goma xantana: 1 g",
       "Huevos: 2 unidades",
       "Aceite de oliva: 10 ml",
       "Sal: 3 g"
     ],
     instructions: [
-      "Amasa hasta obtener textura firme.",
-      "Estira y corta en cuadrados grandes.",
-      "Coloca relleno, cubre y sella bien los bordes.",
+      "Mezcla harinas, fécula, psyllium, goma xantana y sal.",
+      "Añade huevos y aceite, y amasa.",
+      "Estira la masa algo más gruesa que la estándar.",
+      "Coloca relleno, cubre y sella firme.",
       "Cocina 4 minutos en agua con sal."
     ],
-    tips: "Puedes hacerlos de espinaca y ricotta, o de calabaza y almendra."
+    tips: "Perfecta para rellenos húmedos (espinaca y ricotta, calabaza, tofu cremoso)."
   },
   {
     id: "b4-r9",
@@ -843,10 +847,10 @@ export const recipes: Recipe[] = [
       "Ajo: 1 diente"
     ],
     instructions: [
-      "Calienta el aceite a fuego mínimo con las hierbas y el ajo.",
-      "Deja enfriar y guarda en frasco hermético."
+      "Calienta suavemente el aceite con las hierbas y el ajo.",
+      "Apaga el fuego, deja enfriar y guarda en frasco."
     ],
-    tips: "Usa este aceite para saltear pasta cocida o rociar sobre lasañas antes de hornear."
+    tips: "Rocía sobre pasta cocida o usa antes de gratinar para un aroma irresistible."
   },
   {
     id: "b4-r10",
@@ -859,10 +863,10 @@ export const recipes: Recipe[] = [
       "Ajo en polvo: ¼ cucharadita"
     ],
     instructions: [
-      "Tritura todos los ingredientes hasta obtener un polvo fino.",
+      "Tritura todo hasta obtener textura de queso rallado.",
       "Guarda en frasco hermético."
     ],
-    tips: "Espolvorea sobre pastas, gratinados o ensaladas para dar sabor umami natural."
+    tips: "Ideal para espolvorear sobre pastas, risottos o ensaladas."
   }
 ];
 
