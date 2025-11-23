@@ -1,7 +1,7 @@
 {
-  "name": "Mi Recetario Interactivo",
-  "short_name": "Recetario",
-  "description": "Colección de recetas organizadas por categorías",
+  "name": "Las Recetas de Matilda - Pastas Sin Gluten",
+  "short_name": "Recetas Matilda",
+  "description": "Recetario de pastas sin gluten",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFF6ED",
