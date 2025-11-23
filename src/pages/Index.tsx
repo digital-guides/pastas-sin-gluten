@@ -1,10 +1,12 @@
 import { SearchBar } from "@/components/SearchBar";
 import { CategoryCard } from "@/components/CategoryCard";
+import { InstallPrompt } from "@/components/InstallPrompt";
 import { categories } from "@/data/recipes";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <InstallPrompt />
       {/* Header */}
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
         <div className="container max-w-6xl mx-auto px-4 py-4">
