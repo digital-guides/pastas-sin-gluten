@@ -51,21 +51,22 @@ export const recipes: Recipe[] = [
       "Harina de arroz: 150 g",
       "Fécula de maíz: 80 g",
       "Harina de tapioca: 40 g",
-      "Psyllium en polvo: 6 g",
+      "Psyllium en polvo: 4 g",
+      "Goma xantana: 2 g",
       "Huevos: 2 unidades",
-      "Agua tibia: 20–30 ml (según absorción)",
+      "Agua tibia: 20–35 ml",
       "Aceite de oliva: 10 ml",
       "Sal: 3 g"
     ],
     instructions: [
-      "Mezcla las harinas, el psyllium y la sal.",
-      "Forma un hueco al centro y añade los huevos y el aceite.",
-      "Integra con un tenedor y agrega el agua poco a poco hasta obtener una masa firme.",
-      "Amasa 3–5 minutos hasta que esté elástica y homogénea.",
-      "Cubre con film y deja reposar 20 minutos.",
-      "Estira con rodillo o máquina, espolvoreando harina de arroz."
+      "Mezcla las harinas, fécula, psyllium, goma xantana y sal.",
+      "Haz un hueco al centro y agrega los huevos y el aceite.",
+      "Integra con tenedor y añade el agua poco a poco hasta obtener una masa suave, flexible y sin grumos.",
+      "Amasa 3–5 minutos: debe sentirse elástica y no quebrarse al doblarla.",
+      "Cubre con film y deja reposar 20 minutos para que los gelificantes actúen.",
+      "Estira con rodillo o máquina espolvoreando con harina de arroz."
     ],
-    tips: "Si la masa se seca, humedécela con las manos. Si está pegajosa, espolvorea un poco de harina de arroz."
+    tips: "La masa lista no debe pegarse a las manos ni abrirse al estirarla. Si reposa bien, estira perfecto incluso en 1 mm."
   },
   {
     id: "b1-r2",
@@ -78,10 +79,11 @@ export const recipes: Recipe[] = [
     ],
     instructions: [
       "Divide la masa en dos partes y estira fina (2 mm).",
-      "Espolvorea harina y enrolla las láminas para cortar tiras del grosor deseado.",
-      "Deja secar 10 minutos.",
-      "Cocina en agua hirviendo con sal 3–4 minutos."
-    ]
+      "Espolvorea con harina, enrolla las láminas y corta tiras del grosor deseado.",
+      "Desenrolla y deja secar 10–15 minutos sobre una bandeja.",
+      "Cocina en agua hirviendo con sal de 3 a 4 minutos, hasta que estén firmes pero tiernos."
+    ],
+    tips: "Si deseas guardarlos, espolvorea con fécula, distribuye sobre bandeja y congela antes de embolsar."
   },
   {
     id: "b1-r3",
@@ -91,19 +93,21 @@ export const recipes: Recipe[] = [
       "Harina de maíz fina: 100 g",
       "Harina de arroz: 150 g",
       "Fécula de maíz: 50 g",
+      "Goma xantana: 2 g",
       "Huevos: 2 unidades",
       "Aceite de oliva: 10 ml",
-      "Agua tibia: 30 ml (ajustar)",
+      "Agua tibia: 20–30 ml",
       "Sal: 3 g"
     ],
     instructions: [
-      "Mezcla todos los ingredientes secos.",
-      "Agrega huevos y aceite, luego el agua de a poco.",
-      "Amasa hasta lograr una textura firme.",
-      "Estira, corta en tiras y deja secar 15 minutos.",
-      "Cocina en agua hirviendo con sal 3–5 minutos."
+      "Mezcla harinas, fécula, sal y goma xantana.",
+      "Agrega huevos y aceite, y mezcla.",
+      "Añade el agua hasta formar una masa firme y flexible.",
+      "Amasa 4–5 minutos hasta que la superficie quede lisa.",
+      "Estira fina y corta en cintas.",
+      "Deja secar 10 minutos y cocina 3–4 minutos en agua con sal."
     ],
-    tips: "Añade cúrcuma o pimentón dulce a la masa para intensificar el color."
+    tips: "Si quieres color más intenso, añade ¼ cucharadita de cúrcuma."
   },
   {
     id: "b1-r4",
@@ -113,40 +117,48 @@ export const recipes: Recipe[] = [
       "Harina de garbanzo: 100 g",
       "Harina de arroz integral: 100 g",
       "Fécula de tapioca: 50 g",
-      "Psyllium: 5 g",
+      "Psyllium: 4 g",
+      "Goma xantana: 2 g",
       "Huevos: 2 unidades",
       "Aceite de oliva: 10 ml",
-      "Agua tibia: 30 ml (según necesidad)"
+      "Agua tibia: 20–30 ml",
+      "Sal: 3 g"
     ],
     instructions: [
-      "Mezcla los ingredientes secos.",
-      "Añade huevos, aceite y agua.",
-      "Amasa hasta lograr consistencia firme.",
-      "Estira y corta en tiras anchas.",
-      "Cocina 4–5 minutos en agua con sal."
-    ]
+      "Mezcla harinas, fécula, psyllium, goma xantana y sal.",
+      "Incorpora los huevos y el aceite.",
+      "Añade agua hasta obtener una masa uniforme y no quebradiza.",
+      "Amasa 4–5 minutos hasta que tome elasticidad.",
+      "Reposa 20 minutos.",
+      "Estira y corta en fetuccine.",
+      "Cocina en agua con sal de 4 a 5 minutos."
+    ],
+    tips: "Combinan perfecto con salsas cremosas o pesto."
   },
   {
     id: "b1-r5",
     title: "Pasta de espinaca sin gluten",
     category: "bloque-1",
     ingredients: [
-      "Espinaca fresca cocida y escurrida: 60 g",
+      "Espinaca cocida y bien escurrida: 60 g",
       "Harina de arroz: 150 g",
       "Fécula de maíz: 80 g",
-      "Psyllium: 5 g",
+      "Psyllium: 4 g",
+      "Goma xantana: 2 g",
       "Huevo: 1 unidad",
       "Aceite de oliva: 10 ml",
-      "Sal: 3 g"
+      "Sal: 3 g",
+      "Agua tibia: 10–20 ml (solo si hace falta)"
     ],
     instructions: [
-      "Procesa la espinaca con el huevo y el aceite.",
-      "Mezcla las harinas y el psyllium con la sal.",
-      "Combina todo hasta obtener una masa homogénea.",
-      "Reposa 20 minutos y estira fina.",
-      "Corta en cintas o forma láminas para lasaña."
+      "Procesa la espinaca con el huevo y el aceite hasta obtener una crema homogénea.",
+      "Mezcla harinas, fécula, psyllium, goma xantana y sal.",
+      "Integra la mezcla verde y forma una masa suave y elástica.",
+      "Si la masa se siente quebradiza, añade pequeñas cantidades de agua tibia.",
+      "Reposa 20 minutos.",
+      "Estira fina y corta en cintas o láminas para lasaña."
     ],
-    tips: "Puedes reemplazar la espinaca por rúcula o acelga para variar el color y el sabor."
+    tips: "Perfecta para rellenos con ricotta vegetal o salsas de limón."
   },
   {
     id: "b1-r6",
@@ -156,16 +168,17 @@ export const recipes: Recipe[] = [
       "Masa: 1 porción de masa básica",
       "Ricotta vegetal o tradicional: 200 g",
       "Espinaca cocida y picada: 80 g",
-      "Queso vegetal o parmesano (opcional): 30 g",
-      "Sal, pimienta y nuez moscada al gusto"
+      "Sal, pimienta y nuez moscada al gusto",
+      "Queso vegetal o parmesano (opcional): 30 g"
     ],
     instructions: [
-      "Mezcla los ingredientes del relleno.",
-      "Estira la masa fina y coloca porciones pequeñas del relleno.",
-      "Cubre con otra lámina, presiona y corta los ravioles.",
-      "Cocina en agua con sal 3–4 minutos."
+      "Mezcla el relleno hasta obtener textura cremosa.",
+      "Estira la masa fina (1–2 mm).",
+      "Coloca pequeñas porciones del relleno, cubre con otra lámina y presiona para sellar sin dejar aire.",
+      "Corta los ravioles y acomódalos en bandeja enharinada.",
+      "Cocina en agua hirviendo con sal por 3–4 minutos, hasta que floten."
     ],
-    tips: "Congela los ravioles en bandeja antes de cocinarlos para que mantengan su forma."
+    tips: "Si los vas a congelar, colócalos en una bandeja primero y luego pásalos a una bolsa para que no se peguen."
   },
   {
     id: "b1-r7",
@@ -173,19 +186,20 @@ export const recipes: Recipe[] = [
     category: "bloque-1",
     ingredients: [
       "Papa cocida y hecha puré: 500 g",
-      "Harina de arroz: 100 g",
+      "Harina de arroz: 120 g",
       "Fécula de maíz: 50 g",
+      "Goma xantana: 2 g",
       "Huevo: 1 unidad",
-      "Sal: 5 g",
-      "Nuez moscada: 1 pizca"
+      "Sal: 5 g"
     ],
     instructions: [
-      "Une todos los ingredientes hasta formar una masa suave.",
-      "Divide en cilindros y corta pequeños trozos.",
-      "Pasa cada ñoqui por un tenedor para dar forma.",
-      "Cocina en agua hirviendo con sal hasta que floten."
+      "Mezcla todos los ingredientes hasta obtener una masa blanda pero manipulable.",
+      "Forma cilindros y corta en trocitos.",
+      "Marca con tenedor (opcional).",
+      "Cocina en agua con sal hasta que suban a la superficie.",
+      "Retira rápido para conservar textura suave."
     ],
-    tips: "Si la papa está muy húmeda, agrega 1 cucharada extra de harina de arroz."
+    tips: "Si prefieres textura más firme, agrega 10 g extra de harina de arroz."
   },
   {
     id: "b1-r8",
@@ -193,18 +207,20 @@ export const recipes: Recipe[] = [
     category: "bloque-1",
     ingredients: [
       "Puré de batata cocida: 400 g",
-      "Harina de arroz: 100 g",
+      "Harina de arroz: 120 g",
       "Fécula de maíz: 40 g",
+      "Goma xantana: 1 g",
       "Huevo: 1 unidad",
-      "Sal: 4 g"
+      "Sal: 4 g",
+      "Pimienta o nuez moscada: al gusto"
     ],
     instructions: [
-      "Mezcla todos los ingredientes hasta lograr masa uniforme.",
-      "Forma cilindros y corta en porciones.",
-      "Marca con tenedor.",
-      "Cocina hasta que suban a la superficie.",
-      "Sirve con salsa de tu preferencia."
-    ]
+      "Mezcla todos los ingredientes hasta obtener una masa blanda pero manipulable.",
+      "Forma cilindros y corta en trocitos.",
+      "Cocina en agua con sal hasta que suban a la superficie.",
+      "Retira rápido para conservar su textura."
+    ],
+    tips: "Van perfectos con mantequilla vegetal y salvia."
   },
   {
     id: "b1-r9",
@@ -214,15 +230,15 @@ export const recipes: Recipe[] = [
       "Masa: 1 porción de masa básica",
       "Puré de calabaza asada: 200 g",
       "Queso vegetal o ricotta: 100 g",
-      "Sal, pimienta y nuez moscada: al gusto"
+      "Sal, pimienta y nuez moscada"
     ],
     instructions: [
-      "Mezcla los ingredientes del relleno.",
-      "Estira la masa, coloca porciones del relleno y cubre con otra lámina.",
-      "Corta los ravioles y sella los bordes.",
-      "Cocina 4 minutos en agua hirviendo con sal."
+      "Mezcla el relleno hasta lograr textura densa y cremosa.",
+      "Estira la masa fina y coloca porciones del relleno.",
+      "Cubre con otra lámina y sella bien los bordes.",
+      "Corta y cocina 3–4 minutos en agua con sal."
     ],
-    tips: "Sirve con mantequilla de salvia o salsa cremosa de almendras."
+    tips: "Deliciosos con salsa de mantequilla vegetal y salvia."
   },
   {
     id: "b1-r10",
@@ -232,15 +248,56 @@ export const recipes: Recipe[] = [
       "1 masa básica dividida en 3 partes",
       "Espinaca cocida (para verde): 40 g",
       "Cúrcuma en polvo (para amarilla): ½ cucharadita",
-      "Masa natural (para blanca): base sin color"
+      "Masa natural (para blanca)"
     ],
     instructions: [
-      "Mezcla cada color con una parte de la masa.",
-      "Estira cada una por separado.",
-      "Superpón las láminas, pasa el rodillo y corta tiras.",
+      "Mezcla cada color con una parte de la masa: Verde: integrar puré de espinaca. Amarilla: mezclar la cúrcuma con los secos antes de hidratar. Blanca: masa básica sin color.",
+      "Estira cada masa por separado.",
+      "Superpone las láminas, pasa el rodillo y corta tiras.",
       "Cocina 3–4 minutos en agua con sal."
     ],
-    tips: "Ideal para sorprender visualmente; combina bien con salsas claras o al limón."
+    tips: "Ideal con salsas ligeras que dejen ver los colores."
+  },
+  {
+    id: "b1-r11",
+    title: "Lasaña de verduras sin gluten",
+    category: "bloque-1",
+    ingredients: [
+      "Láminas de pasta básica: 12 unidades",
+      "Calabacín en rodajas: 200 g",
+      "Berenjena en rodajas: 200 g",
+      "Salsa de tomate casera: 400 g",
+      "Queso vegetal o ricotta: 250 g",
+      "Aceite de oliva, sal y orégano"
+    ],
+    instructions: [
+      "Saltea las verduras con aceite, sal y orégano.",
+      "En una fuente, coloca una capa de salsa, láminas de pasta, verduras y queso.",
+      "Repite hasta completar capas.",
+      "Cubre con salsa y queso, hornea a 180 °C por 30–35 minutos."
+    ],
+    tips: "Deja reposar 10 minutos antes de cortar para que asiente bien."
+  },
+  {
+    id: "b1-r12",
+    title: "Canelones de espinaca y ricotta sin gluten",
+    category: "bloque-1",
+    ingredients: [
+      "Láminas de pasta básica: 12 unidades",
+      "Espinaca cocida y picada: 300 g",
+      "Ricotta vegetal o tradicional: 300 g",
+      "Salsa bechamel sin gluten: 500 ml",
+      "Queso vegetal rallado: 100 g",
+      "Sal, pimienta y nuez moscada"
+    ],
+    instructions: [
+      "Mezcla espinaca con ricotta, sal, pimienta y nuez moscada.",
+      "Coloca el relleno sobre cada lámina de pasta y enrolla.",
+      "Acomoda los canelones en una fuente con bechamel en la base.",
+      "Cubre con más bechamel y queso rallado.",
+      "Hornea a 180 °C por 25–30 minutos hasta dorar."
+    ],
+    tips: "Puedes preparar los canelones con anticipación y refrigerarlos antes de hornear."
   },
 
   // BLOQUE 2 – PASTAS ESPECIALES Y SIN HUEVO
