@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Download, X } from "lucide-react";
+import { Utensils, X } from "lucide-react";
 
 export const InstallPrompt = () => {
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
@@ -49,7 +49,7 @@ export const InstallPrompt = () => {
         
         <div className="flex items-start gap-3">
           <div className="bg-primary/10 rounded-full p-2">
-            <Download className="h-5 w-5 text-primary" />
+            <Utensils className="h-5 w-5 text-primary" />
           </div>
           <div className="flex-1">
             <h3 className="font-semibold text-sm mb-1">
