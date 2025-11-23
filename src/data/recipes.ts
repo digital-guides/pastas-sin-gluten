@@ -243,219 +243,213 @@ export const recipes: Recipe[] = [
     tips: "Ideal para sorprender visualmente; combina bien con salsas claras o al limón."
   },
 
-  // BLOQUE 2 – PASTAS ESPECIALES (Recetas temporales - documento corrupto)
+  // BLOQUE 2 – PASTAS ESPECIALES Y SIN HUEVO
   {
     id: "b2-r1",
-    title: "Pasta de remolacha",
+    title: "Masa de pasta sin huevo (versión vegana)",
     category: "bloque-2",
     ingredients: [
-      "Puré de remolacha cocida: 60 g",
       "Harina de arroz: 150 g",
       "Fécula de maíz: 80 g",
-      "Psyllium: 5 g",
-      "Huevo: 1 unidad",
+      "Harina de tapioca: 40 g",
+      "Psyllium en polvo: 6 g",
+      "Agua tibia: 120 ml",
       "Aceite de oliva: 10 ml",
       "Sal: 3 g"
     ],
     instructions: [
-      "Procesa la remolacha con el huevo y el aceite.",
-      "Mezcla las harinas y el psyllium con la sal.",
-      "Combina todo hasta obtener una masa rosa brillante.",
-      "Reposa 20 minutos y estira fina.",
-      "Corta en la forma deseada y cocina 3–4 minutos."
-    ]
+      "Mezcla los ingredientes secos.",
+      "Agrega el agua y el aceite poco a poco.",
+      "Amasa durante 5 minutos hasta obtener una masa elástica.",
+      "Deja reposar 20 minutos tapada.",
+      "Estira con rodillo y corta según el tipo de pasta deseado."
+    ],
+    tips: "Si la masa se agrieta, humedece las manos y vuelve a amasar; el psyllium ayuda a unir las fibras sin gluten."
   },
   {
     id: "b2-r2",
-    title: "Lasaña sin gluten",
+    title: "Pasta proteica de lentejas rojas",
     category: "bloque-2",
     ingredients: [
-      "Láminas de pasta básica cocidas",
-      "Salsa boloñesa o de tu preferencia",
-      "Salsa blanca vegetal",
-      "Queso rallado vegetal o tradicional"
+      "Harina de lentejas rojas: 200 g",
+      "Harina de arroz: 80 g",
+      "Psyllium en polvo: 5 g",
+      "Agua tibia: 100–120 ml",
+      "Aceite de oliva: 10 ml",
+      "Sal: 3 g"
     ],
     instructions: [
-      "Alterna capas de pasta, salsa boloñesa y salsa blanca.",
-      "Termina con queso rallado.",
-      "Hornea a 180°C por 25–30 minutos.",
-      "Deja reposar 10 minutos antes de servir."
+      "Mezcla todos los ingredientes secos.",
+      "Agrega el agua y el aceite, integrando hasta lograr una masa homogénea.",
+      "Amasa hasta obtener consistencia firme.",
+      "Reposa 20 minutos.",
+      "Estira y corta en la forma deseada.",
+      "Cocina 4–5 minutos en agua con sal."
     ]
   },
   {
     id: "b2-r3",
-    title: "Canelones de verduras",
+    title: "Espaguetis de quinoa y arroz",
     category: "bloque-2",
     ingredients: [
-      "Masa para canelones (tipo crepa)",
-      "Espinaca y ricotta para relleno",
-      "Salsa de tomate",
-      "Queso rallado vegetal"
+      "Harina de quinoa: 100 g",
+      "Harina de arroz: 150 g",
+      "Fécula de maíz: 50 g",
+      "Psyllium: 5 g",
+      "Agua tibia: 120 ml",
+      "Aceite de oliva: 10 ml",
+      "Sal: 3 g"
     ],
     instructions: [
-      "Rellena cada crepa con la mezcla de espinaca y ricotta.",
-      "Enrolla y coloca en fuente.",
-      "Cubre con salsa de tomate y queso.",
-      "Hornea 20 minutos a 180°C."
-    ]
+      "Mezcla los ingredientes secos.",
+      "Añade el agua y el aceite.",
+      "Amasa hasta lograr una textura lisa.",
+      "Pasa por la máquina de pasta y corta en tiras finas.",
+      "Cocina 3–5 minutos."
+    ],
+    tips: "Agrega una cucharada de semillas molidas para dar un toque artesanal y más fibra."
   },
   {
     id: "b2-r4",
-    title: "Sorrentinos de jamón y queso",
+    title: "Ñoquis de garbanzo y calabaza",
     category: "bloque-2",
     ingredients: [
-      "Masa básica estirada fina",
-      "Queso vegetal cremoso: 150 g",
-      "Jamón vegetal picado: 100 g",
-      "Nuez moscada y pimienta"
+      "Puré de calabaza cocida: 250 g",
+      "Harina de garbanzo: 80 g",
+      "Harina de arroz: 40 g",
+      "Sal: 3 g",
+      "Pimienta y nuez moscada: al gusto"
     ],
     instructions: [
-      "Mezcla el queso con el jamón y condimentos.",
-      "Forma sorrentinos redondos.",
-      "Sella bien los bordes.",
-      "Cocina 3–4 minutos en agua con sal."
+      "Une todos los ingredientes hasta formar una masa blanda.",
+      "Forma cilindros y corta en porciones pequeñas.",
+      "Marca con tenedor si lo deseas.",
+      "Cocina en agua hirviendo hasta que floten.",
+      "Sirve con la salsa de tu preferencia."
     ]
   },
   {
     id: "b2-r5",
-    title: "Pappardelle rústicas",
+    title: "Pasta de teff y amaranto (alta en fibra)",
     category: "bloque-2",
     ingredients: [
-      "Masa básica",
-      "Harina de arroz integral parcial",
-      "Sal y aceite"
+      "Harina de teff: 100 g",
+      "Harina de amaranto: 100 g",
+      "Fécula de maíz: 60 g",
+      "Psyllium: 5 g",
+      "Agua tibia: 120 ml",
+      "Aceite de oliva: 10 ml",
+      "Sal: 3 g"
     ],
     instructions: [
-      "Estira la masa en láminas gruesas.",
-      "Corta tiras anchas e irregulares.",
-      "Deja secar ligeramente.",
-      "Cocina 4–5 minutos.",
-      "Ideal con salsas rústicas."
-    ]
+      "Mezcla los ingredientes secos.",
+      "Agrega agua y aceite hasta obtener una masa firme.",
+      "Amasa 5 minutos y deja reposar 20.",
+      "Estira y corta en el formato deseado.",
+      "Cocina 4 minutos en agua con sal."
+    ],
+    tips: "Ideal para acompañar con salsas cremosas o de vegetales asados."
   },
   {
     id: "b2-r6",
-    title: "Orecchiette sin gluten",
+    title: "Ravioles veganos de tofu y setas",
     category: "bloque-2",
     ingredients: [
-      "Masa básica firme",
-      "Harina de arroz para trabajar"
+      "Masa: 1 porción de masa sin huevo (receta 1)",
+      "Tofu firme: 200 g",
+      "Champiñones salteados y picados: 100 g",
+      "Aceite de oliva: 10 ml",
+      "Salsa de soya sin gluten (tamari): 1 cucharadita",
+      "Sal y pimienta al gusto"
     ],
     instructions: [
-      "Forma cilindros finos y corta pequeños discos.",
-      "Presiona cada disco con el pulgar para formar la oreja.",
-      "Deja secar 20 minutos.",
-      "Cocina 5–6 minutos.",
-      "Perfectas con brócoli y ajo."
-    ]
+      "Tritura el tofu y mézclalo con los champiñones y condimentos.",
+      "Estira la masa y coloca porciones del relleno.",
+      "Cubre, corta y sella los ravioles.",
+      "Cocina 3–4 minutos en agua con sal."
+    ],
+    tips: "Saltea los ravioles cocidos con aceite de oliva y tomillo para realzar su sabor."
   },
   {
     id: "b2-r7",
-    title: "Agnolotti de carne vegetal",
+    title: "Pasta de arroz integral al vapor (estilo oriental)",
     category: "bloque-2",
     ingredients: [
-      "Masa básica",
-      "Proteína vegetal texturizada: 200 g",
-      "Cebolla, ajo y especias",
-      "Queso vegetal rallado"
+      "Harina de arroz integral: 200 g",
+      "Fécula de tapioca: 50 g",
+      "Agua caliente: 180 ml",
+      "Aceite de sésamo: 5 ml",
+      "Sal: 2 g"
     ],
     instructions: [
-      "Sofríe la proteína con cebolla y ajo.",
-      "Mezcla con queso rallado.",
-      "Forma agnolotti pequeños.",
-      "Sella los bordes presionando con tenedor.",
-      "Cocina 3–4 minutos."
-    ]
+      "Mezcla las harinas con la sal.",
+      "Agrega el agua caliente y mezcla hasta obtener una masa suave.",
+      "Extiende en láminas finas y corta en tiras.",
+      "Cocina al vapor durante 5–6 minutos."
+    ],
+    tips: "Ideal para platos asiáticos; acompaña con salsa de soya, jengibre y aceite de sésamo."
   },
   {
     id: "b2-r8",
-    title: "Tortellini de queso",
+    title: "Pasta de harina de garbanzo (alta en proteína)",
     category: "bloque-2",
     ingredients: [
-      "Masa básica estirada muy fina",
-      "Ricotta vegetal: 150 g",
-      "Queso parmesano vegetal: 50 g",
-      "Nuez moscada y sal"
+      "Harina de garbanzo: 200 g",
+      "Fécula de maíz: 50 g",
+      "Psyllium: 5 g",
+      "Agua tibia: 120 ml",
+      "Aceite de oliva: 10 ml",
+      "Sal: 3 g"
     ],
     instructions: [
-      "Mezcla los quesos con nuez moscada.",
-      "Corta círculos de masa y coloca relleno al centro.",
-      "Dobla en media luna y une las puntas.",
-      "Cocina 3 minutos en agua con sal.",
-      "Sirve con salsa de tu preferencia."
+      "Mezcla todos los ingredientes secos.",
+      "Añade agua y aceite poco a poco.",
+      "Amasa hasta lograr masa firme y elástica.",
+      "Reposa 20 minutos.",
+      "Estira y corta en la forma deseada.",
+      "Cocina 4–5 minutos en agua con sal."
     ]
   },
   {
     id: "b2-r9",
-    title: "Pasta rellena de hongos",
+    title: "Pasta de mijo con cúrcuma",
     category: "bloque-2",
     ingredients: [
-      "Masa básica",
-      "Hongos variados salteados: 200 g",
-      "Cebolla, ajo y tomillo",
-      "Queso crema vegetal"
-    ],
-    instructions: [
-      "Sofríe hongos con cebolla, ajo y tomillo.",
-      "Mezcla con queso crema.",
-      "Rellena ravioles o tortellini.",
-      "Cocina 3–4 minutos.",
-      "Sirve con mantequilla de hierbas."
-    ]
-  },
-  {
-    id: "b2-r10",
-    title: "Farfalle multicolor",
-    category: "bloque-2",
-    ingredients: [
-      "Masa tricolor (espinaca, cúrcuma, natural)",
-      "Harina de arroz para trabajar"
-    ],
-    instructions: [
-      "Estira cada color por separado.",
-      "Corta rectángulos y pellizca al centro para formar moños.",
-      "Deja secar 15 minutos.",
-      "Cocina 3–4 minutos.",
-      "Perfectas con salsas ligeras."
-    ]
-  },
-  {
-    id: "b2-r11",
-    title: "Conchiglioni rellenos",
-    category: "bloque-2",
-    ingredients: [
-      "Conchas grandes de pasta sin gluten",
-      "Relleno de ricotta y espinaca",
-      "Salsa de tomate",
-      "Queso rallado"
-    ],
-    instructions: [
-      "Cocina las conchas al dente.",
-      "Rellena con la mezcla de ricotta y espinaca.",
-      "Coloca en fuente con salsa de tomate.",
-      "Espolvorea queso rallado.",
-      "Hornea 20 minutos a 180°C."
-    ]
-  },
-  {
-    id: "b2-r12",
-    title: "Pasta al huevo dorada",
-    category: "bloque-2",
-    ingredients: [
-      "Harina de arroz: 150 g",
-      "Fécula de maíz: 80 g",
-      "Huevos: 3 unidades (más yemas)",
-      "Aceite de oliva: 15 ml",
+      "Harina de mijo: 150 g",
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 50 g",
+      "Cúrcuma en polvo: ½ cucharadita",
+      "Psyllium: 5 g",
+      "Agua tibia: 120 ml",
+      "Aceite de oliva: 10 ml",
       "Sal: 3 g"
     ],
     instructions: [
-      "Mezcla harinas con sal.",
-      "Añade huevos y aceite.",
-      "Amasa hasta lograr masa elástica y dorada.",
-      "Reposa 30 minutos.",
-      "Estira y corta en la forma deseada.",
-      "Cocina 3–4 minutos."
-    ]
+      "Mezcla los secos y añade la cúrcuma.",
+      "Agrega el agua y el aceite, integrando hasta masa firme.",
+      "Estira y corta.",
+      "Cocina 4 minutos en agua con sal."
+    ],
+    tips: "Acompaña con salsa blanca de coliflor o crema de limón para resaltar su color dorado."
+  },
+  {
+    id: "b2-r10",
+    title: "Ñoquis de ricotta vegetal y psyllium",
+    category: "bloque-2",
+    ingredients: [
+      "Ricotta vegetal o de almendra: 250 g",
+      "Harina de arroz: 100 g",
+      "Psyllium: 4 g",
+      "Sal: 3 g",
+      "Pimienta o nuez moscada: al gusto"
+    ],
+    instructions: [
+      "Mezcla todos los ingredientes hasta obtener masa firme.",
+      "Forma cilindros, corta y moldea los ñoquis.",
+      "Cocina en agua hirviendo con sal hasta que floten.",
+      "Escurre y sirve con salsa a elección."
+    ],
+    tips: "Saltea los ñoquis cocidos con aceite de oliva y hierbas para darles una textura ligeramente dorada."
   },
 
   // BLOQUE 3 – SALSAS SALUDABLES Y CREMOSAS
